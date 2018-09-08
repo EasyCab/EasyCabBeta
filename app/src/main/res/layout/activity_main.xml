@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/gradient"
+    android:padding="20sp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_margin="20sp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:textColor="@color/textColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="left"
+        android:textSize="18dp"
+        android:layout_gravity="bottom"
+        android:foregroundGravity="bottom"
+        android:text="Get going with us :"/>
+
+
+    <EditText
+        android:layout_margin="10sp"
+        android:layout_gravity="center"
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="35sp"
+        android:maxLength="11"
+        android:hint="03012345678:"
+        android:textColor="@color/textColor"
+        android:id="@+id/phone"
+        android:textColorHint="@color/textColor"
+        android:background="@drawable/rounded_box"
+        android:inputType="phone"/>
+
+    <TextView
+        android:layout_margin="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login with email?"
+        android:id="@+id/social_link"
+        android:background="@drawable/rounded_box"
+        android:clickable="true"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"/>
+</LinearLayout>
