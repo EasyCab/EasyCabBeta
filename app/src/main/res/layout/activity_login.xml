@@ -55,7 +55,7 @@
             android:textSize="24dp"
             android:id="@+id/btn_login"
             android:textColor="@color/textColor"
-            android:backgroundTint="@color/colorPrimaryDark"
+            android:background="@drawable/rounded_buttons"
             />
     </LinearLayout>
 
